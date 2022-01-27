@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>simplehttpdownloader</id>
+    <name>Simple H T T P Downloader</name>
+    <summary>Simple HTTP Downloader for any directory</summary>
+    <description><![CDATA[Click one button and let your Nextcloud Server download a file for you. that&#39;s all]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="marvin@von-rappard.ch" >Marvin von Rappard</author>
+    <namespace>SimpleHTTPDownloader</namespace>
+    <category>files</category>
+    <bugs>https://github.com/marvinvr/nextcloud-http-downloader</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Simple H T T P Downloader</name>
+            <route>simplehttpdownloader.page.index</route>
+        </navigation>
+    </navigations>
+</info>

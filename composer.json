@@ -1,0 +1,15 @@
+{
+    "name": "Simple H T T P Downloader",
+    "description": "Simple HTTP Downloader for any directory",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Marvin von Rappard"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
